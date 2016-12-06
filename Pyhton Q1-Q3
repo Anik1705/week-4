@@ -1,0 +1,28 @@
+1.	Explain the mistake in the following code:
+radius = input("Radius:")
+x = 3.14
+pi = x
+area = pi * radius ** 2
+
+#we have to put "int" before "input(Radius")
+the right code  is :
+
+radius = int(input("Radius:"))
+x = 3.14
+pi = x
+area = pi * radius ** 2
+print  (int(area))
+
+2.	Explain the mistake in the following code:
+x = 4
+y = 5
+a = 3(x + y)
+
+
+3.	Explain the mistake in the following code:
+radius = input(float("Enter the radius:"))
+ 
+#float shoud be before inpuut like:
+radius = float(input("Enter the radius:"))
+print(float(radius))
+
